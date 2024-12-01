@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Laptop store</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>       
+    <div class="header">  
+    <div class="container">
+        <div class="navbar">
+             <div class="logo">
+               <a href="index.html"> <img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Account.html">Login</a></li>
+                    <li><a href="Account.html">Sign up</a></li>
+                    <li><a href="insertproduct.html">Insert product</a></li>
+
+                </ul>
+            </nav>
+          <img src="images/cart.svg" width="50px" height="50px"> 
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div> 
+         <div class="row">
+             <div class="col-2">
+                 <h1>The brand new Asus <br>will change your life!</h1>
+                 <p>
+                     only for 1500 USD!
+                 </p>
+                  <a href="" class="btn">Order Now &#8594;</a>
+                  <div id="overlay"></div>
+             </div>
+             <div class="col-2">
+                 <img src="images/Asusfront.png">
+             </div>
+         </div>
+    </div>  
+    </div> 
+    <div class="categories">
+      
+       <div class="small-container">
+         
+          <div class="row">
+           <div class="col-3">
+               <img src="images/category-1.webp" >
+           </div>
+           <div class="col-3">
+               <img src="images/category-3.png" > 
+           </div>
+           <div class="col-3">
+               <img src="images/category-2.webp" >
+           </div>
+        </div>
+     </div>  
+  </div>
+        <div class="small-container">
+           <h2 class="title">Featured Products</h2> 
+           <div class="row">
+               <div class="col-4">
+                   <img src="images/product-1.webp" >
+                   <h4>Zenbook Pro</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1200$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-2.webp" >
+                   <h4>Zenbook Flip</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1500$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-3.webp" >
+                   <h4>Zenbook Fold</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                   </div>
+                   <p>1750$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-4.webp" >
+                   <h4>Zenbook Duo</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1300$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+        </div>
+            <h2 class="title">Latest Products</h2> 
+               <div class="row">
+               <div class="col-4">
+                   <img src="images/product-5.webp" >
+                   <h4>Vivobook Slate</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+
+                   </div>
+                   <p>1600$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-6.webp" >
+                   <h4>Chromebook Vibe</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1350$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-7.webp" >
+                   <h4>Chromebook</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1150$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-8.webp" >
+                   <h4>Vivobook Go</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                       <i class="fa fa-star-o"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>900$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               </div>
+               <div class="row">
+               <div class="col-4">
+                   <img src="images/product-9.webp" >
+                   <h4>ASUS Zenbook Pro 16X</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1100$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-10.webp" >
+                   <h4>ASUS Zenbook Pro 14X</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1200$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-11.webp" >
+                   <h4>Zenbook 14X  </h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                   </div>
+                   <p>1450$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+               <div class="col-4">
+                   <img src="images/product-12.webp" >
+                   <h4>ASUS Vivobook 13 Slate </h4>
+                   <div class="rating">
+                       <li class="fa fa-star"></li>
+                       <li class="fa fa-star"></li>
+                       <li class="fa fa-star"></li>
+                       <li class="fa fa-star"></li>
+                       <li class="fa fa-star-o"></li>
+                   </div>
+                   <p>1600$</p>
+                   <br>
+                   <a href="http://testphp.vulnweb.com/" class="ad-link btn">Buy Now</a>
+               </div>
+           </div>
+        </div>
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/proart.jpg" class="offer-img" >
+                    </div>
+                    <div class="col-2">
+                        <p>Limited Edition</p>
+                        <h1>ProArt Studiobook</h1>
+                        <smal>ProArt StudioBook Pro 17 is one of the world's slimmest laptops to feature NVIDIA® Quadro® graphics, making it a mighty powerhouse that brings ideas to life. It boasts a slim-bezel NanoEdge display that effectively allows for a larger display to fit into its compact chassis for immersive visuals. Its combination of cutting-edge graphics and portability makes it perfect for creative professionals.</smal><br>
+                        <a href="" class="btn">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/brand1.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand2.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand3.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand4.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo2.png" alt="">
+                        <p>Our goal is to provide you best products with best prices</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3> 
+                        <ul>
+                            <li>Blog post</li>
+                            <li>Return Policy</li>
+                            <li>About us</li>
+                            <li>Rules</li>
+                        </ul>                   
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3> 
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>                   
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2023 Kiarash Rahmani 99463139</p>
+            </div>
+        </div>
+        <div id="adware-warning">
+            <p>This link may contain adware. Do you want to continue?</p>
+            <button id="continue">Yes</button>
+            <button id="cancel">No</button>
+        </div> 
+        <script src="script.js"></script>
+    </body>
+</html>
